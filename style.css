@@ -1,4 +1,9 @@
 .body{
-    background-color: rgb(147, 255, 255);
+    background-color: azure;
 }
-
+.footer{
+    background-color: blue;
+    color: white;
+    bottom: 0;
+    position: fixed;
+}
