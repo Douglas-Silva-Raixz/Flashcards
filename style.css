@@ -8,7 +8,7 @@ body{
     font-family: Bai Jamjuree;
 } /*define a formatação da parte principal do site*/
 footer{
-    background-color: #001f46;
+    background-color: var(--card-front-color);
     color: white;
     bottom: 0;
     position: fixed;
@@ -25,7 +25,7 @@ footer p{
 }
 .cartao{
     margin: 1rem 1rem;
-    height: 20rem;
+    height: 30rem;
     flex-grow: 1;
     flex-basis: calc(33% -6rem);
 }
