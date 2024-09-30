@@ -1,5 +1,11 @@
+:root {
+    --text-color: #88a2c2;
+    --card-front-color: #001f46;
+    --card-back-color: #00cff4;
+}
 body{ 
-    background-color: rgb(255, 255, 255);
+    background: url('img/bg-desktop.webp');
+    font-family: Bai Jamjuree;
 } /*define a formatação da parte principal do site*/
 footer{
     background-color: blue;
@@ -27,9 +33,11 @@ footer p{
 .conteudo {
     text-align: center;
     height: 100%;
+    background-color: var(--card-front-color);
 }
 .conteudo h3 {
-    background-color: rgb(0, 255, 13);
+    color: var(--text-color);
+    border: 1px solid var(--text-color);
     text-align: left;
     padding: 0.5rem;
     position: absolute;
