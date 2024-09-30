@@ -1,7 +1,7 @@
 :root {
     --text-color: #88a2c2;
     --card-front-color: #001f46;
-    --card-back-color: #00cff4;
+    --card-back-color: blue;
 }
 body{ 
     background: url('img/bg-desktop.webp');
@@ -45,7 +45,13 @@ footer p{
     border-radius: 0.6rem;
     font-size: 1vw;
 }
-
-
+.pergunta{
+    color: var(--text-color);
+    font-weight: 500;
+}
+.resposta{
+    color: var(--card-back-color);
+    font-weight: 700;
+}
 
 
