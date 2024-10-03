@@ -4,7 +4,7 @@
     --card-back-color: rgb(0, 156, 47);
 }
 body{ 
-    background: url(/bg-desktop.webp);
+    background: url('/bg-desktop.webp');
     font-family: Bai Jamjuree;
 } /*define a formatação da parte principal do site*/
 footer{
