@@ -21,10 +21,6 @@ footer p{
 } /*define a formatação do texto presente no rodapé do site*/
 .container{
     display: flex;
-     flex-wrap: wrap;
-     justify-content: space-between;
-     padding: 4rem;
-     gap: 3rem;
 }
 .cartao{
     margin: 1rem 1rem;
