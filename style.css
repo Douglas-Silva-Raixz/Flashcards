@@ -6,6 +6,9 @@
 body{ 
     background-image: url('/bg-desktop.webp');
 } /*define a formatação da parte principal do site*/
+.cartao:hover .cartao__conteudo {
+    transform: rotateY(180deg);
+}
 footer{
     background-color: var(--card-front-color);
     color: white;
@@ -32,6 +35,8 @@ footer p{
     text-align: center;
     height: 100%;
     background-color: var(--card-front-color);
+    transform-style: preserve-3d;
+    transition: transform 300ms ease-in-out;
 }
 .conteudo h3 {
     color: var(--text-color);
@@ -42,18 +47,28 @@ footer p{
     margin: 0.6rem;
     border-radius: 0.6rem;
     font-size: 1vw;
+    backface-visibility: hidden;
 }
 .pergunta{
     color: var(--text-color);
     font-weight: 500;
+    backface-visibility: hidden;
+    position: absolute;
+    height: 100%;
+    width: 100%;
 }
 .resposta{
     color: var(--card-back-color);
     font-weight: 700;
+    backface-visibility: hidden;
+    position: absolute;
+    height: 100%;
+    width: 100%;
 }
 .conteudo p{
     margin-top: 1rem;
     padding: 2rem;
+    margin-top: 4rem;
 }
 
 
