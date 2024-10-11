@@ -23,7 +23,8 @@ footer p{
     margin: 0.5rem;
 } /*define a formatação do texto presente no rodapé do site*/
 .container{
-    display: flex;
+    display:grid;
+    grid-template-columns: 20% 20% 20%;
 }
 .cartao{
     margin: 1rem 1rem;
