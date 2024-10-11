@@ -4,7 +4,7 @@
     --card-back-color: rgb(0, 156, 47);
 }
 body{ 
-    background: url(/bg-desktop.webp);
+    background-image: url('/bg-desktop.webp');
     font-family: Bai Jamjuree;
 } /*define a formatação da parte principal do site*/
 footer{
@@ -22,6 +22,10 @@ footer p{
 } /*define a formatação do texto presente no rodapé do site*/
 .container{
     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+     padding: 4rem;
+     gap: 3rem;
 }
 .cartao{
     margin: 1rem 1rem;
