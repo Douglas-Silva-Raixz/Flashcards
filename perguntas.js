@@ -18,19 +18,19 @@ criarCartao(
 criarCartao(
     'Química',
     'O que são os anéis aromáticos?',
-    'São estruturas formadas por seis átomos de carbono ligados entre si por ligações simples e duplas alternadas.'
+    'São estruturas formadas obrigatóriamente por seis átomos de carbono ligados entre si por ligações simples e duplas alternadas.'
 )
 
 criarCartao(
     'Química',
     'O que é um ácido carboxílico?',
-    'Ácido que contém a carboxila, junção entre a carbonila (C=O) e a hidroxila (O-H)'
+    'Ácido que contém a carboxila, junção entre os íons carbonila (C=O) e hidroxila (O-H)'
 )
 
 criarCartao(
     'Química',
     'Como é feito o refinamento do petróleo?',
-    'Através da destilação fracionada, que separa a parte mais densa (piche e óleos) da menos densa (combustíveis e gas)'
+    'Através da destilação fracionada, que separa a parte mais densa (piche e óleos) da menos densa (combustíveis e gás)'
 )
 criarCartao(
     'Física',
