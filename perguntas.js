@@ -29,23 +29,23 @@ criarCartao(
 
 criarCartao(
     'Química',
-    'Como é feito o refinamento do petróleo??',
+    'Como é feito o refinamento do petróleo?',
     'Através da destilação fracionada, que separa a parte mais densa (piche e óleos) da menos densa (combustíveis e gas)'
 )
 criarCartao(
-    'Programação',
-    'O que é JavaScript?',
-    'O JavaScript é uma linguagem de programação'
+    'Física',
+    'O que diz a Primeira lei de Newton?',
+    'Um objeto permanecerá em repouso ou em movimento uniforme em linha reta a menos que tenha seu estado alterado pela ação de uma força externa.'
 )
 
 criarCartao(
-    'Programação',
-    'O que é JavaScript?',
-    'O JavaScript é uma linguagem de programação'
+    'Física',
+    'Como se calcula a aceleração angulasr de um corpo?',
+    'Através da fórmula α=∆ω∆t.'
 )
 
 criarCartao(
-    'Programação',
-    'O que é JavaScript?',
-    'O JavaScript é uma linguagem de programação'
+    'Física',
+    'O que é a termodinâmica?',
+    'Área da física que estuda as transformações que ocorrem entre os tipos de energia.'
 )
