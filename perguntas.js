@@ -24,7 +24,7 @@ criarCartao(
 criarCartao(
     'Química',
     'O que é um ácido carboxílico?',
-    'Ácido que contém a carboxila, junção entre os íons carbonila (C=O) e hidroxila (O-H)'
+    'Ácido que contém o íon carboxila, junção entre os íons carbonila (C=O) e hidroxila (O-H)'
 )
 
 criarCartao(
@@ -40,7 +40,7 @@ criarCartao(
 
 criarCartao(
     'Física',
-    'Como se calcula a aceleração angulasr de um corpo?',
+    'Como se calcula a aceleração angular de um corpo?',
     'Através da fórmula α=∆ω∆t.'
 )
 
