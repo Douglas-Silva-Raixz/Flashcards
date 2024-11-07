@@ -9,7 +9,6 @@ body{
 .cartao.active .cartao__conteudo {
     transform: rotateY(180deg);
 }
-}
 footer{
     background-color: var(--card-front-color);
     color: white;
