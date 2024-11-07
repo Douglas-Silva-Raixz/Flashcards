@@ -6,8 +6,9 @@
 body{ 
     background-image: url('/bg-desktop.webp');
 } /*define a formatação da parte principal do site*/
-.cartao:hover .conteudo {
+.cartao.active .cartao__conteudo {
     transform: rotateY(180deg);
+}
 }
 footer{
     background-color: var(--card-front-color);
