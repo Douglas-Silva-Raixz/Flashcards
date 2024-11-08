@@ -37,7 +37,7 @@ footer p{
     height: 100%;
     background-color: var(--card-front-color);
     transform-style: preserve-3d;
-    transition: transform 300ms ease-in-out;
+    transform: rotateY(180deg);
 }
 .conteudo h3 {
     color: var(--text-color);
