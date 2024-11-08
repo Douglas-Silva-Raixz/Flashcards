@@ -23,8 +23,12 @@ footer p{
     margin: 0.5rem;
 } /*define a formatação do texto presente no rodapé do site*/
 .container{
-    display:grid;
     grid-template-columns: 20% 20% 20% 20% 20%;
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 4rem;
+    gap: 3rem;
 }
 .cartao{
     margin: 1rem 1rem;
@@ -33,7 +37,7 @@ footer p{
     flex-basis: calc(33% -6rem);
 }
 .cartao.active.conteudo {
-        transform: rotateY(180deg);
+    transform: rotateY(180deg);
 }
 
 .conteudo {
