@@ -11,7 +11,8 @@ cartao.innerHTML = `
 </div> 
 <div class="resposta">
 <p>${resposta}</p>
-</div> </div>
+</div> 
+</div>
 `
 let respostaEstaVisivel = false
 

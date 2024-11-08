@@ -32,6 +32,10 @@ footer p{
     flex-grow: 1;
     flex-basis: calc(33% -6rem);
 }
+    .cartao.active {
+        transform: rotateY(180deg);
+}
+
 .conteudo {
     text-align: justify;
     height: 100%;
